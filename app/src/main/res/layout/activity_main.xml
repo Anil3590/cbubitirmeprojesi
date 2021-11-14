@@ -13,27 +13,23 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            app:srcCompat="@drawable/celal_bayar__niversitesi_yeni_logosu" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#03A9F4"
-            android:fontFamily="casual"
-            android:padding="@android:dimen/notification_large_icon_width"
+            android:layout_height="85dp"
+            android:fontFamily="serif"
+            android:paddingTop="?attr/listPreferredItemPaddingEnd"
             android:text="Manisa Celal Bayar Üniversitesine Hoşgeldiniz"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="HAKKINDA"
-            android:onClick="gonder"
-
-            />
 
         <Button
             android:id="@+id/button2"
@@ -41,6 +37,15 @@
             android:layout_height="wrap_content"
             android:text="ŞU ANDA NEREDEYİM?"
             android:onClick="Scanner"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gonder"
+            android:text="HAKKINDA"
+
             />
 
     </LinearLayout>
