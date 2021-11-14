@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hakkinda">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingTop="@android:dimen/app_icon_size"
+                android:text="Adını; Milli Mücadele yıllarında Atatürk'ün yanında silah arkadaşı olarak yer alan, Son Osmanlı Mebusan Meclisi'nde Saruhan Mebusluğu da yapmış olan Celal Bayar'dan alan Manisa Celal Bayar Üniversitesi, bölgenin sosyal ve kültürel beklentilerine ve gereksinimlerine cevap verecek araştırma merkezlerini de açmış ve bunları işlevsel hale getirmiştir."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bugün 15 fakültesi, 2 yüksekokulu, 15 meslek yüksekokulu, 3 enstitüsü, 28 araştırma merkezi ve 1 araştırma uygulama hastanesi (Üniversite Hastanesi) olmak üzere toplam 64 birim ile eğitim ve öğretime devam eden Manisa Celal Bayar Üniversitesi, 1808 akademik personeli, 1160 idari personeli ve 46.525 öğrencisiyle, Ege Bölgesi'nin en büyük 3 üniversitesinden biridir."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:paddingTop="?attr/dialogPreferredPadding"
+                android:text="Türkiye'nin ve Ege Bölgesi'nin tarihi ve kültürel dokusu en zengin illerinden biri olan Manisa, Manisa Celal Bayar Üniversitesi ile ve bu üniversitenin bilimsel çalışma ve araştırmaları ile gelecekte de daima ön planda olacak ve bir üniversite şehri olarak anılacaktır."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simge olarak Manisa Lalesini alan üniversitemiz, tarihimizin bir dönemine ışık tutan, yalnız geçmişin değil bugünümüzün ve geleceğimizin de bir parçası olan bu simge ile birlikte sevgi, bilgi ve gelişmeyi, geçmişten geleceğe taşımayı seçmiştir."
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="321dp"
+                android:layout_height="127dp"
+                android:paddingLeft="?attr/listPreferredItemHeightLarge"
+                app:srcCompat="@drawable/celal_bayar__niversitesi_yeni_logosu" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
