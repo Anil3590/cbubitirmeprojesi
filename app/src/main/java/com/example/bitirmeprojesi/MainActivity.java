@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void nereye(View view){
+        Intent intent = new Intent(getApplicationContext(),Nereye.class);
+        startActivity(intent);
+    }
+
     public void Scanner(View view) {
         Intent scanner = new Intent(getApplicationContext(),ScannerActivity.class);
         startActivity(scanner);
