@@ -29,6 +29,7 @@
             android:scaleType="fitXY"
             app:layout_column="1"
             app:layout_row="0"
+            android:onClick="iktisatgenel"
             app:srcCompat="@drawable/pngtreerising_financial_economy_5427823" />
 
         <TextView

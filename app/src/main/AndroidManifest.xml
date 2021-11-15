@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".iktisatgenel"
+            android:exported="false" />
+        <activity
             android:name=".muhfakgenel"
             android:exported="false" />
         <!--

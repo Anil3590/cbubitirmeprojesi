@@ -17,4 +17,8 @@ public class Nereye extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), muhfakgenel.class);
         startActivity(intent);
     }
+    public void iktisatgenel(View view) {
+        Intent intent = new Intent(getApplicationContext(), iktisatgenel.class);
+        startActivity(intent);
+    }
 }
