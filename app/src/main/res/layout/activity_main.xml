@@ -47,6 +47,18 @@
             android:onClick="nereye"/>
 
         <Button
+            android:id="@+id/ubs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UBS" />
+
+        <Button
+            android:id="@+id/cbuweb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEB SİTESİ" />
+
+        <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
