@@ -18,16 +18,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="KONUM"
-            android:onClick="muhendislik"/>
+            android:onClick="muhendislik" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnmuharama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="İLETİŞİM" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btnmuhweb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="WEB SİTESİ" />
