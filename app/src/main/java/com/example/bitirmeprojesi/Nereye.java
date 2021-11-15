@@ -13,8 +13,8 @@ public class Nereye extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nereye);
     }
-    public void muhfak(View view) {
-        Intent intent = new Intent(getApplicationContext(), muhendislik.class);
+    public void muhfakgenel(View view) {
+        Intent intent = new Intent(getApplicationContext(), muhfakgenel.class);
         startActivity(intent);
     }
 }

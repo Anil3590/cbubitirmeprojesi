@@ -20,7 +20,7 @@
             app:layout_column="0"
             app:layout_row="0"
             app:srcCompat="@drawable/pngtreemeasurement_engineer_3265869"
-            android:onClick="muhfak"/>
+            android:onClick="muhfakgenel"/>
 
         <ImageButton
             android:id="@+id/iktisat"
