@@ -19,7 +19,8 @@
             android:scaleType="fitXY"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/pngtreemeasurement_engineer_3265869" />
+            app:srcCompat="@drawable/pngtreemeasurement_engineer_3265869"
+            android:onClick="muhfak"/>
 
         <ImageButton
             android:id="@+id/iktisat"
@@ -97,8 +98,7 @@
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_column="2"
-            app:layout_row="1"
-            android:onClick="muhfak"/>
+            app:layout_row="1" />
 
 
         <TextView

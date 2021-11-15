@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void gonder(View view) {
-        Intent intent = new Intent(getApplicationContext(),hakkinda.class);
+    public void muhfak(View view) {
+        Intent intent = new Intent(getApplicationContext(),muhendislik.class);
         startActivity(intent);
     }
 

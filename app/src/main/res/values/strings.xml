@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CBÜ E-Kampüs Rehberi</string>
     <string name="title_activity_muhfak">muhfak</string>
+    <string name="title_activity_muhendislik">muhendislik</string>
 </resources>
