@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnubs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uri= Uri.parse("https://ubs.cbu.edu.tr/");
+                Uri uri= Uri.parse("https://ubs.c.edu.tr/");
                 Intent intent= new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(intent);
             }
