@@ -38,4 +38,10 @@ import android.widget.Button;
         public void muhendislik(View view) {
             Intent intent = new Intent(getApplicationContext(), muhendislik.class);
             startActivity(intent);}
+
+        public void MuhAkademik(View view){
+            Intent intent = new Intent(getApplicationContext(),MuhAkademik.class);
+            startActivity(intent);
+        }
+
 }

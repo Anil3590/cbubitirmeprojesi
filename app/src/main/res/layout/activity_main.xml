@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="601dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -35,16 +35,22 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ŞU ANDA NEREDEYİM?"
             android:onClick="Scanner"
-            />
+            android:text="ŞU ANDA NEREDEYİM?" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NEREYE GİTMEK İSTERSİN?"
-            android:onClick="nereye"/>
+            android:onClick="nereye"
+            android:text="NEREYE GİTMEK İSTERSİN?" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="yemekhane"
+            android:text="Yemekhane Listesi" />
 
         <Button
             android:id="@+id/ubs"

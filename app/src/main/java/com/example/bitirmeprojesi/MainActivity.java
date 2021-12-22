@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     };
     int PERM_CODE = 11;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
         Intent scanner = new Intent(getApplicationContext(),ScannerActivity.class);
         startActivity(scanner);
     }
+    public void yemekhane(View view) {
+        Intent yemekhane = new Intent(getApplicationContext(),yemekhane.class);
+        startActivity(yemekhane);
+    }
+
 
 
     private boolean checkpermissions(){
@@ -79,5 +85,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
+
 
 }

@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".MuhAkademik"
+            android:exported="false" />
+        <activity
+            android:name=".yemekhane"
+            android:exported="false" />
+        <activity
             android:name=".iktisatgenel"
             android:exported="false" />
         <activity
