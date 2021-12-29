@@ -7,29 +7,36 @@
     tools:context=".Nereye">
 
     <androidx.gridlayout.widget.GridLayout
-        android:layout_width="409dp"
-        android:layout_height="601dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
             android:id="@+id/engineer"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:onClick="muhfakgenel"
             android:scaleType="fitXY"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/pngtreemeasurement_engineer_3265869"
-            android:onClick="muhfakgenel"/>
+            app:srcCompat="@drawable/pngtreemeasurement_engineer_3265869" />
 
         <ImageButton
             android:id="@+id/iktisat"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:onClick="iktisatgenel"
             android:scaleType="fitXY"
             app:layout_column="1"
             app:layout_row="0"
-            android:onClick="iktisatgenel"
             app:srcCompat="@drawable/pngtreerising_financial_economy_5427823" />
 
         <TextView
@@ -75,8 +82,8 @@
         <ImageButton
             android:id="@+id/female"
             android:layout_width="100dp"
-            android:scaleType="fitXY"
             android:layout_height="100dp"
+            android:scaleType="fitXY"
             app:layout_column="0"
             app:layout_row="2"
             app:srcCompat="@drawable/toppng_com_female_logo_2000x3068" />
@@ -139,11 +146,11 @@
             android:id="@+id/imageView4"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:onClick="atm"
             android:scaleType="fitXY"
             app:layout_column="2"
             app:layout_row="2"
-            app:srcCompat="@drawable/_3014_atm_sign_icon"
-            android:onClick="atm"/>
+            app:srcCompat="@drawable/_3014_atm_sign_icon" />
 
         <TextView
             android:id="@+id/textView13"
@@ -154,8 +161,7 @@
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_column="2"
-            app:layout_row="3"
-            />
+            app:layout_row="3" />
 
         <ImageButton
             android:id="@+id/imageButton"
