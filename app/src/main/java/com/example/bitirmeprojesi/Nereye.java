@@ -18,7 +18,15 @@ public class Nereye extends AppCompatActivity {
         startActivity(intent);
     }
     public void iktisatgenel(View view) {
-        Intent intent = new Intent(getApplicationContext(), iktisatgenel.class);
+        Intent intent = new Intent(getApplicationContext(),iktisatgenel.class);
+        startActivity(intent);
+    }
+    public void atm(View view) {
+        Intent intent = new Intent(getApplicationContext(),atm.class);
+        startActivity(intent);
+    }
+    public void ibadethane(View view) {
+        Intent intent = new Intent(getApplicationContext(),ibadethane.class);
         startActivity(intent);
     }
 }

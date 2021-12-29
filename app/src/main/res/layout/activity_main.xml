@@ -53,6 +53,13 @@
             android:text="Yemekhane Listesi" />
 
         <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Otobüs saatleri"
+            android:onClick="otobus"/>
+
+        <Button
             android:id="@+id/ubs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

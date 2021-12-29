@@ -19,13 +19,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".ibadethane"
+            android:exported="false" />
+        <activity
+            android:name=".atm"
+            android:exported="false" />
+        <activity
+            android:name=".twentytwo"
+            android:exported="false" />
+        <activity
+            android:name=".twentyone"
+            android:exported="false" />
+        <activity
+            android:name=".otobussaatleri"
+            android:exported="false" />
+        <activity
+            android:name=".iktisatakademik"
+            android:exported="false" />
+        <activity
+            android:name=".iktisatkonum"
+            android:exported="false" />
+        <activity
+            android:name=".iktisatgenel"
+            android:exported="false" />
+        <activity
             android:name=".MuhAkademik"
             android:exported="false" />
         <activity
             android:name=".yemekhane"
-            android:exported="false" />
-        <activity
-            android:name=".iktisatgenel"
             android:exported="false" />
         <activity
             android:name=".muhfakgenel"

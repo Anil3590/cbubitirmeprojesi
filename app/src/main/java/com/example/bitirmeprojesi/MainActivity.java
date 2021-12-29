@@ -69,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
         Intent yemekhane = new Intent(getApplicationContext(),yemekhane.class);
         startActivity(yemekhane);
     }
+    public void otobus(View view) {
+        Intent intent = new Intent(getApplicationContext(),otobussaatleri.class);
+        startActivity(intent);
+    }
+
 
 
 

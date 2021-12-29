@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iktisatakademik">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:text="PROF. DR. BÜNYAMİN DURAN İktisat Bölüm Başkanı B-102 Görüşme Saatleri Salı 12.00-14.00" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="Prof. Dr. Mahmut KARĞIN  İşletme Bölüm Başkanı A-101 Görüşme Saatleri  Pazartesi 10.00-12.00" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="PROF. DR. AHMET KEMAL ÇELEBİ Maliye Bölüm Başkanı C-107 Görüşme Saatleri Çarşamba 13.00-15.00" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="PROF. DR. SERHAT BAŞTAN Kamu Yönetimi Bölüm Başkanı D-101 Görüşme Saatleri Çarşamba 13.00-15.00" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

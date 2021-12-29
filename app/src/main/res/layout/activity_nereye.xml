@@ -134,5 +134,47 @@
             android:textStyle="bold"
             app:layout_column="1"
             app:layout_row="3" />
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/_3014_atm_sign_icon"
+            android:onClick="atm"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="ATM"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_column="2"
+            app:layout_row="3"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="ibadethane"
+            android:scaleType="fitXY"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/ibadethane" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:text="İbadethane"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_column="3"
+            app:layout_row="3" />
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

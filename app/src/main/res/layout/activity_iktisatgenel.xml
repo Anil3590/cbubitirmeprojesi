@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".iktisatgenel">
 
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="konum"
+            android:onClick="iktisatkonum"
+            />
+
+        <Button
+            android:id="@+id/btniktisatarama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İLETİŞİM" />
+            />
+
+        <Button
+            android:id="@+id/btniktisatweb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WEB SİTESİ"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="akademik kadro"
+            android:onClick="iktisatakademik"
+            />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
