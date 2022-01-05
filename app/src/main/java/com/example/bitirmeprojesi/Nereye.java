@@ -29,4 +29,16 @@ public class Nereye extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),ibadethane.class);
         startActivity(intent);
     }
+    public void rektorluk(View view) {
+        Intent intent = new Intent(getApplicationContext(),rektorluk.class);
+        startActivity(intent);}
+
+    public void sporsalonu(View view) {
+        Intent intent = new Intent(getApplicationContext(),Sporsalonu.class);
+        startActivity(intent);
+    }
+    public void alısveris(View view) {
+        Intent intent = new Intent(getApplicationContext(),alisveris.class);
+        startActivity(intent);
+    }
 }

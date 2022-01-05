@@ -15,7 +15,7 @@ public class yemekhane extends AppCompatActivity {
         setContentView(R.layout.activity_yemekhane);
         ImageView imageView = findViewById(R.id.imageView);
         Picasso.get()
-                .load("https://sks.mcbu.edu.tr/db_images/site_405/web/Aralik-Yemek-Listesi%20(2).jpg")
+                .load("https://sks.mcbu.edu.tr/db_images/site_405/web/Ocak-Yemek-Listesi%2011.jpg")
                 .resize(1920, 3000)
                 .into(imageView);
     }

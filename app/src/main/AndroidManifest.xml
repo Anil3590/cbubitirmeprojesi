@@ -19,6 +19,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".marketkonum"
+            android:exported="false" />
+        <activity
+            android:name=".ceyparkkonum"
+            android:exported="false" />
+        <activity
+            android:name=".ceypark"
+            android:exported="false" />
+        <activity
+            android:name=".alisveris"
+            android:exported="false" />
+        <activity
+            android:name=".Sporsalonu"
+            android:exported="false" />
+        <activity
+            android:name=".rektorluk"
+            android:exported="false" />
+        <activity
             android:name=".ibadethane"
             android:exported="false" />
         <activity

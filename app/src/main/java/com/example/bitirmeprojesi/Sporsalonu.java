@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 import com.example.bitirmeprojesi.databinding.ActivityIbadethaneBinding;
 import com.example.bitirmeprojesi.databinding.ActivityIktisatkonumBinding;
+import com.example.bitirmeprojesi.databinding.ActivitySporsalonuBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -14,16 +15,16 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class ibadethane extends FragmentActivity implements OnMapReadyCallback {
+public class Sporsalonu extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private ActivityIbadethaneBinding binding;
+    private ActivitySporsalonuBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityIbadethaneBinding.inflate(getLayoutInflater());
+        binding = ActivitySporsalonuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -37,8 +38,8 @@ public class ibadethane extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng ibadethane = new LatLng(38.680713, 27.310185);
-        mMap.addMarker(new MarkerOptions().position(ibadethane).title("Marker in İbadethane"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(ibadethane));
+        LatLng sporsalonu = new LatLng(38.675320, 27.311778);
+        mMap.addMarker(new MarkerOptions().position(sporsalonu).title("Marker in Spor Salonu"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sporsalonu));
     }
 }

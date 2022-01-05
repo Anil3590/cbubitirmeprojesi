@@ -36,8 +36,9 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="match_parent"
-            android:layout_height="61dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
             android:onClick="yirmibir"
             android:text="21 Numara Saatleri" />
 
@@ -52,8 +53,9 @@
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
             android:onClick="yirmiiki"
             android:text="22 Numara Saatleri" />
 
