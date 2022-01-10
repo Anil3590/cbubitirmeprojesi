@@ -37,7 +37,7 @@ public class Sporsalonu extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng sporsalonu = new LatLng(38.675320, 27.311778);
         mMap.addMarker(new MarkerOptions().position(sporsalonu).title("Marker in Spor Salonu"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sporsalonu));

@@ -19,6 +19,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".TeknokentKonum"
+            android:exported="false" />
+        <activity
+            android:name=".Teknokent"
+            android:exported="false" />
+        <activity
+            android:name=".ErkekYurduKonum"
+            android:exported="false" />
+        <activity
+            android:name=".ErkekYurdu"
+            android:exported="false" />
+        <activity
+            android:name=".KizYurduKonum"
+            android:exported="false" />
+        <activity
+            android:name=".KizYurdu"
+            android:exported="false" />
+        <activity
+            android:name=".FefAkademik"
+            android:exported="false" />
+        <activity
+            android:name=".FefKonum"
+            android:exported="false" />
+        <activity
+            android:name=".FefGenel"
+            android:exported="false" />
+        <activity
+            android:name=".UbyoKonum"
+            android:exported="false" />
+        <activity
+            android:name=".UbyoAkademik"
+            android:exported="false" />
+        <activity
+            android:name=".ubyogenel"
+            android:exported="false" />
+        <activity
             android:name=".marketkonum"
             android:exported="false" />
         <activity
@@ -82,10 +118,6 @@
             android:name=".muhendislik"
             android:exported="false"
             android:label="@string/title_activity_muhendislik" />
-        <activity
-            android:name=".muhfak"
-            android:exported="false"
-            android:label="@string/title_activity_muhfak" />
         <activity
             android:name=".Nereye"
             android:exported="false" />

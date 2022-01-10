@@ -37,7 +37,7 @@ public class marketkonum extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng marketkonum = new LatLng(38.680088, 27.303926);
         mMap.addMarker(new MarkerOptions().position(marketkonum).title("Marker in Metropol Market"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(marketkonum));

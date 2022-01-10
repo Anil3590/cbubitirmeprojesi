@@ -36,7 +36,6 @@ public class ibadethane extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
         LatLng ibadethane = new LatLng(38.680713, 27.310185);
         mMap.addMarker(new MarkerOptions().position(ibadethane).title("Marker in İbadethane"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ibadethane));

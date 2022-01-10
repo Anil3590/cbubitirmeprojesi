@@ -35,7 +35,7 @@ public class iktisatkonum extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng iktisatfakultesi = new LatLng(38.676421, 27.305152);
         mMap.addMarker(new MarkerOptions().position(iktisatfakultesi).title("Marker in İktisat Fakültesi"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(iktisatfakultesi));

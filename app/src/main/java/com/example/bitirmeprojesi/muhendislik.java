@@ -34,7 +34,7 @@ public class muhendislik extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng muhendislikfakultesi = new LatLng(38.67753, 27.30233);
         mMap.addMarker(new MarkerOptions().position(muhendislikfakultesi).title("Marker in Mühendislik Fakültesi"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(muhendislikfakultesi));

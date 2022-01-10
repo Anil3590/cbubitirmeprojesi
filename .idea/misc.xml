@@ -10,11 +10,19 @@
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_atm.xml" value="0.2703125" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ceypark.xml" value="0.284375" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ceyparkkonum.xml" value="0.284375" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_erkek_yurdu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_erkek_yurdu_konum.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_fef.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_fef_akademik.xml" value="0.3" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_fef_genel.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_fef_konum.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_hakkinda.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ibadethane.xml" value="0.284375" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_iktisatakademik.xml" value="0.2703125" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_iktisatgenel.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_iktisatkonum.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_kiz_yurdu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_kiz_yurdu_konum.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_market.xml" value="0.284375" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_marketkonum.xml" value="0.284375" />
@@ -27,8 +35,14 @@
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_rektorluk.xml" value="0.284375" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_scanner.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_sporsalonu.xml" value="0.284375" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_teknokent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_teknokent_konum.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_twentyone.xml" value="0.284375" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_twentytwo.xml" value="0.284375" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ubyo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ubyo_akademik.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ubyo_konum.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_ubyogenel.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/layout/activity_yemekhane.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ANIL/AndroidStudioProjects/cbubitirmeprojesi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.30052083333333335" />
       </map>

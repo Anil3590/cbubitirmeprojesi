@@ -37,7 +37,7 @@ public class rektorluk extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng rektorluk = new LatLng(38.677924, 27.308038);
         mMap.addMarker(new MarkerOptions().position(rektorluk).title("Marker in Rektörlük"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(rektorluk));

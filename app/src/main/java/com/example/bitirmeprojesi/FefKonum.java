@@ -1,30 +1,29 @@
 package com.example.bitirmeprojesi;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 
-import com.example.bitirmeprojesi.databinding.ActivityAtmBinding;
+import com.example.bitirmeprojesi.databinding.ActivityFefKonumBinding;
 import com.example.bitirmeprojesi.databinding.ActivityIktisatkonumBinding;
-import com.example.bitirmeprojesi.databinding.ActivityMuhendislikBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.example.bitirmeprojesi.databinding.ActivityMuhendislikBinding;
 
-public class atm extends FragmentActivity implements OnMapReadyCallback {
+public class FefKonum extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private ActivityAtmBinding binding;
+    private ActivityFefKonumBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityAtmBinding.inflate(getLayoutInflater());
+        binding = ActivityFefKonumBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -37,9 +36,9 @@ public class atm extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-
-        LatLng atmm = new LatLng(38.677155, 27.306384);
-        mMap.addMarker(new MarkerOptions().position(atmm).title("TEB-Ziraat-İş Bankası"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(atmm));
+      
+        LatLng FefKonum = new LatLng(38.678344, 27.305342);
+        mMap.addMarker(new MarkerOptions().position(FefKonum).title("Marker in Fen Edebiyat Fakültesi"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FefKonum));
     }
 }

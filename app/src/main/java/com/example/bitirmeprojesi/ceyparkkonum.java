@@ -37,7 +37,7 @@ public class ceyparkkonum extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+
         LatLng ceyparkkonum = new LatLng(38.676956, 27.306533);
         mMap.addMarker(new MarkerOptions().position(ceyparkkonum).title("Marker in Ceypark AVM"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ceyparkkonum));
