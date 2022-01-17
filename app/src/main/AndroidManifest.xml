@@ -19,6 +19,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BitirmeProjesi">
         <activity
+            android:name=".guzergahtt"
+            android:exported="false" />
+        <activity
+            android:name=".guzergahto"
+            android:exported="false" />
+        <activity
             android:name=".TeknokentKonum"
             android:exported="false" />
         <activity

@@ -27,6 +27,15 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="21 Numara"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,30 +43,68 @@
             android:textAlignment="center"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:onClick="yirmibir"
-            android:text="21 Numara Saatleri" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:onClick="yirmibir"
+                android:text="21 Numara Saatleri" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:onClick="guzergahto"
+                android:text="Güzergahı Göster" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/maps_dav_hud_copyright_fontsize"
+            android:text="22 Numara"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/maps_btn_width"
+            android:paddingTop="@dimen/default_gap"
             android:text="Yeni garaj- Öğretmen Evi - Horozköy - Muradiye - Kampüs"
             android:textAlignment="center"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:onClick="yirmiiki"
-            android:text="22 Numara Saatleri" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:onClick="yirmiiki"
+                android:text="22 Numara Saatleri" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:onClick="guzergahtt"
+                android:layout_weight="1"
+                android:text="Güzergahı Göster" />
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

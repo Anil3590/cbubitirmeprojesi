@@ -21,4 +21,13 @@ public class otobussaatleri extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), twentytwo.class);
         startActivity(intent);
     }
+    public void guzergahto(View view) {
+        Intent intent = new Intent(getApplicationContext(), guzergahto.class);
+        startActivity(intent);
+    }
+    public void guzergahtt(View view) {
+        Intent intent = new Intent(getApplicationContext(), guzergahtt.class);
+        startActivity(intent);
+    }
+
 }
